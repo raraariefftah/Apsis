@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('halaman_utama.navbar');
+});
+
+Route::get('/yes', function () {
+    return view('halaman_utama.navbar2');
 });
